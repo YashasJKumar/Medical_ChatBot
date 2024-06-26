@@ -5,10 +5,8 @@ import PIL.Image as Pil
 import google.generativeai as genai
 import pickle
 from googletrans import Translator
-from dotenv import load_dotenv
 
 loaded_history = []
-load_dotenv()
 
 # File paths for the two history files
 file_paths = ['chat_history1.pkl', 'chat_history2.pkl']
