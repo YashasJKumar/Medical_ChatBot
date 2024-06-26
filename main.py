@@ -43,7 +43,7 @@ def translate_text(text, target_language='en'):
 def main():
     st.session_state.conversation = []
     st.set_page_config(page_title="YUNIGMA Medical Chatbot")
-    genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+    genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
     st.title("Yunigma Medical Chatbot")
 
     with st.sidebar:
