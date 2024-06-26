@@ -1,0 +1,7 @@
+pillow~=10.2.0
+ipython~=8.18.0
+validators~=0.22.0
+google-generativeai==0.3.2
+streamlit
+python-dotenv
+googletrans~=4.0.0rc1
